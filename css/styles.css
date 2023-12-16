@@ -220,6 +220,37 @@ display: inline-flex;
     background: var(--WHITE, #FFF);
 }
 
+.conteiner-section-button {
+  width: 1440px;
+  height: 600px;
+  flex-shrink: 0;
+  background: var(--NAVY-BLUE, #2E2F42);
+}
+.conteiner-content{
+  width: 1440px;
+    height: 3300px;
+    background: #FFF;
+}
+
+.conteiner-section-team{
+  width: 1440px;
+    height: 732px;
+    flex-shrink: 0;
+    background: var(--CLOUD, #F4F4FD);
+}
+
+.conteiner-section-portfolio{
+  width: 1440px;
+    height: 3300px;
+    background: #FFF;
+}
+
+.conteiner-footer{
+  width: 1440px;
+    height: 312px;
+    flex-shrink: 0;
+    background: var(--NAVY-BLUE, #2E2F42);
+}
 .ul-nav{
   display: inline;
 }
