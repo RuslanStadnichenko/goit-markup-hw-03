@@ -18,59 +18,68 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
+      integrity="sha512-gA2Bvu0/hw4oj0Lp8ZHjK+o3S4BE5m8d/wNVy6ktKLhHKPpWLQwv9ixzuWirWOakoJqlBdePq2NhoCaUOQ5npQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <div class="conteiner">
-      <!--Navigator-->
+    <!--Container-->
+    <div class="container">
       <header>
-        <div class="conteiner-nav">
-          <div class="conteiner-nav-menu">
-            <nav class="navigator">
-              <a class="logo-name-web-nav" href="./index.html"
-                >Web<span class="logo-nav-studio">Studio</span></a
-              >
-              <ul class="ul-nav">
-                <li><a class="info-nav" href="./index.html">Studio</a></li>
-                <li><a class="info-nav" href="">Portfolio</a></li>
-                <li><a class="info-nav" href="">Contacts</a></li>
-              </ul>
-            </nav>
+        <nav class="navigator">
+          <div>
+            <a class="logo-name-web-nav" href="./index.html"
+              >Web<span class="logo-nav-studio">Studio</span></a
+            >
           </div>
-          <!--Address-->
-          <div class="conteiner-address">
-            <address class="address-nav">
-              <ul class="ul-address">
-                <li>
-                  <a class="info-nav-contact" href="mailto:info@devstudio.com"
-                    >info@devstudio.com</a
-                  >
-                </li>
+          <ul class="ul-nav">
+            <li class="li-nav">
+              <a class="info-nav" href="./index.html">Studio</a>
+            </li>
+            <li class="li-nav">
+              <a class="info-nav" href="">Portfolio</a>
+            </li>
+            <li class="li-nav"><a class="info-nav" href="">Contacts</a></li>
+          </ul>
+        </nav>
 
-                <li>
-                  <a class="info-nav-contact" href="tel:+110001111111"
-                    >+11 (000) 111-11-11</a
-                  >
-                </li>
-              </ul>
-            </address>
-          </div>
-        </div>
+        <!--Address-->
+        <address class="address-nav">
+          <ul class="ul-address">
+            <li class="li-address">
+              <a class="info-nav-contact" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+
+            <li class="li-address">
+              <a class="info-nav-contact" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
       </header>
 
       <main>
         <!--Section1 button-->
 
-        <div class="conteiner-section-button">
-          <section class="section-button">
+        <section class="section-button">
+          <div class="container-section-button">
             <h1 class="title-one">Effective Solutions for Your Business</h1>
             <button class="button-one" type="button">Order Service</button>
-          </section>
-        </div>
+          </div>
+        </section>
 
         <!--Section2 content-->
-        <div class="conteiner-content">
-          <section class="section-info">
+
+        <section class="section-info">
+          <div class="container-content">
             <h2 class="invisible-text">soft and skills company</h2>
             <ul class="ul-content">
               <li>
@@ -102,15 +111,16 @@
                 </p>
               </li>
             </ul>
-          </section>
-        </div>
+          </div>
+        </section>
 
         <!--Section3 team-->
-        <div class="conteiner-section-team">
-          <section class="section-team">
-            <h2 class="title-h-two">Our Team</h2>
-            <ul class="ul-team">
-              <li class="info-team">
+
+        <section class="section-team">
+          <div class="container-section-team">
+            <h2 class="title-info-team">Our Team</h2>
+            <ul class="ul-info-team">
+              <li class="li-info-team">
                 <img
                   src="./images/MarkGuerrero.jpg"
                   alt="Mark Guerrero Product Designer"
@@ -120,7 +130,7 @@
                 <h3 class="info-team-name">Mark Guerrero</h3>
                 <p class="info-team-skills">Product Designer</p>
               </li>
-              <li class="info-team">
+              <li class="li-info-team">
                 <img
                   src="./images/TomFord.jpg"
                   alt="Tom Ford Frontend Developer"
@@ -130,7 +140,7 @@
                 <h3 class="info-team-name">Tom Ford</h3>
                 <p class="info-team-skills">Frontend Developer</p>
               </li>
-              <li class="info-team">
+              <li class="li-info-team">
                 <img
                   src="./images/CamilaGarcia.jpg"
                   alt="CamilaGarciaMarketing"
@@ -140,7 +150,7 @@
                 <h3 class="info-team-name">Camila Garcia</h3>
                 <p class="info-team-skills">Marketing</p>
               </li>
-              <li class="info-team">
+              <li class="li-info-team">
                 <img
                   src="./images/DanielWilson.jpg"
                   alt="Daniel Wilson UI Desinger"
@@ -151,12 +161,14 @@
                 <p class="info-team-skills">UI Designer</p>
               </li>
             </ul>
-          </section>
-        </div>
+          </div>
+        </section>
+
         <!--Section4 portfolio-->
-        <div class="conteiner-section-portfolio">
-          <section>
-            <h2 class="title-h-two">Our Portfolio</h2>
+
+        <section>
+          <div class="container-section-portfolio">
+            <h2 class="title-portfolio">Our Portfolio</h2>
             <ul class="ul-portfolio">
               <li>
                 <img
@@ -165,7 +177,7 @@
                   width="360"
                   height="300"
                 />
-                <h3 class="title-portfolio">Banking App</h3>
+                <h3 class="title-info-portfolio">Banking App</h3>
                 <p class="paragraph-portfolio">App</p>
               </li>
               <li>
@@ -175,7 +187,7 @@
                   width="360"
                   height="300"
                 />
-                <h3 class="title-portfolio">Cashless Payment</h3>
+                <h3 class="title-info-portfolio">Cashless Payment</h3>
                 <p class="paragraph-portfolio">Marketing</p>
               </li>
               <li>
@@ -185,7 +197,7 @@
                   width="360"
                   height="300"
                 />
-                <h3 class="title-portfolio">Meditation App</h3>
+                <h3 class="title-info-portfolio">Meditation App</h3>
                 <p class="paragraph-portfolio">App</p>
               </li>
               <li>
@@ -195,7 +207,7 @@
                   width="360"
                   height="300"
                 />
-                <h3 class="title-portfolio">Taxi Service</h3>
+                <h3 class="title-info-portfolio">Taxi Service</h3>
                 <p class="paragraph-portfolio">Marketing</p>
               </li>
               <li>
@@ -205,7 +217,7 @@
                   width="360"
                   height="300"
                 />
-                <h3 class="title-portfolio">Screen Illustrations</h3>
+                <h3 class="title-info-portfolio">Screen Illustrations</h3>
                 <p class="paragraph-portfolio">Design</p>
               </li>
               <li>
@@ -215,15 +227,15 @@
                   width="360"
                   height="300"
                 />
-                <h3 class="title-portfolio">Online Courses</h3>
+                <h3 class="title-info-portfolio">Online Courses</h3>
                 <p class="paragraph-portfolio">Marketing</p>
               </li>
             </ul>
-          </section>
-        </div>
+          </div>
+        </section>
       </main>
       <!--Footer-->
-      <div class="conteiner-footer">
+      <div class="container-footer">
         <footer class="footer-only">
           <a class="logo-name-web-footer" href="./index.html"
             >Web<span class="logo-footer-studio">Studio</span></a
