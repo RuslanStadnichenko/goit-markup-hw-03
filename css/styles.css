@@ -14,12 +14,7 @@ ul {
 a {
   text-decoration: none;
 }
-
-.info-team{
-margin-right: auto;
-  margin-left: auto;
-}
-
+/* logo nav*/
 .logo-name-web-nav{
   color:#4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -33,21 +28,21 @@ margin-right: auto;
 .logo-nav-studio {
   color: #2e2f42;
 }
-
-.info-nav {
+/*navigation*/ 
+.link-nav {
   color:#2e2f42;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
 }
-.info-nav:focus {
+.link-nav:focus {
   color: #404bbf;
 }
-.info-nav:hover {
+.link-nav:hover {
   color: #404bbf;
 }
-.info-nav:active {
+.link-nav:active {
   color: #404bbf;
 }
 .address-nav{
@@ -75,12 +70,13 @@ color: #434455;
   color: #404bbf;
 }
 
+/*section button*/
 
 .section-button{
   background-color: #2e2f42;
 }
 
-.title-one{
+.section-button-title{
 color: #ffffff;
   text-align: center;
   font-weight: 700;
@@ -102,6 +98,9 @@ button:hover,
 button:focus {
   background-color: #404bbf;
 }
+
+/*section content*/
+
 .title-info{
   color: #2E2F42;
   font-size: 20px;
@@ -114,8 +113,14 @@ button:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+/*section team*/
+
 .section-team{
   background-color: #F4F4FD;
+}
+.info-team {
+  margin-right: auto;
+  margin-left: auto;
 }
 .title-info-team{
   color:#2E2F42;
@@ -137,6 +142,7 @@ button:focus {
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
+
 .info-team-skills{
   color:#434455;
     text-align: center;
@@ -144,6 +150,8 @@ button:focus {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+/*section portfolio*/
+
 .title-portfolio{
   color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
@@ -168,6 +176,8 @@ button:focus {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+/*footer*/
 
 .footer-only{
   background-color: #2e2f42;
@@ -195,20 +205,28 @@ color: #F4F4FD;
   letter-spacing: 0.02em;
 }
 
+/*reset global style*/
+
 h1,
 h2,
 h3,
-p,
-a{
+h4,
+h5,
+h6,
+p{
   margin-top: 0;
   margin-bottom: 0;
 }
-
+a {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 ul{
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
 }
+/*container*/
 
 .container {
   max-width: 1158px;
@@ -217,13 +235,10 @@ ul{
   margin-right: 15px;
   margin-left: 15px;
 }
-
-conteiner {
-  width: 1440px;
-  height: 3300px;
-  border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
-    background: var(--WHITE, #FFF);
-
+.container-nav{
+  display: inline-flex;
+    height: 24px;
+    align-items: center;
+    flex-shrink: 0;
 }
-
 
