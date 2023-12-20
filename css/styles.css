@@ -1,3 +1,4 @@
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -125,6 +126,7 @@ button:focus {
   margin-right: auto;
   margin-left: auto;
 }
+
 .title-section-team{
   color:#2E2F42;
     text-align: center;
@@ -238,22 +240,9 @@ ul{
   margin-left: auto;
 }
 
+ul, li{
+  display: inline-block
+}
 img{
   display: block;
-}
-
-/*navigator*/
-.navigator, .ul-nav, .a{
-  display: inline-flex;
-    align-items: flex-start;
-    gap: 40px;
-}
-
-.address-nav, .ul-address{
-  display: inline-flex;
-  justify-content: flex-end;
-  align-items: flex-start;
-  gap: 40px;
-  padding-left: 332px;
-
 }
