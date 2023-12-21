@@ -253,6 +253,12 @@ img{
   display: block;
 }
 .header{
+  display: flex;
+    width: 1440px;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
   border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
     background: var(--WHITE, #FFF);
 }
@@ -276,7 +282,7 @@ padding-bottom: 24px;
 margin-left: 332px;
 }
 .section-button{
-
+  width: 1440px;
     height: 600px;
     flex-shrink: 0;
 }
