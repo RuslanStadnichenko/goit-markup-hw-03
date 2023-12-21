@@ -253,7 +253,6 @@ img{
   display: block;
 }
 .header{
-  padding: 24px 0px;
   border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
     background: var(--WHITE, #FFF);
 }
