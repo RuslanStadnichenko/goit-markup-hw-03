@@ -247,7 +247,7 @@ ul{
 }
 
 ul, li{
-  display: inline-block
+  display: inline-block;
 }
 img{
   display: block;
@@ -272,7 +272,7 @@ img{
 .ul-address{
 margin-left: 332px;
 }
-.section-button{
+.section-button, .container{
   width: 1440px;
     height: 600px;
     flex-shrink: 0;
@@ -287,7 +287,7 @@ margin: auto;
 .button-one{
   display: inline-flex;
     padding: 16px 32px;
-    align-items: flex-start;
+      align-items: center;
     gap: 10px;
     border-radius: 4px;
       background: var(--IRIS, #4D5AE5);
@@ -324,11 +324,4 @@ padding-top: 120px;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
-.container-li{
-display: flex;
-  width: 232px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-}
+
