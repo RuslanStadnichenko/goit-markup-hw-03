@@ -253,36 +253,28 @@ img{
   display: block;
 }
 .header{
-  display: flex;
+  padding: 24px 0px;
+  border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--WHITE, #FFF);
+}
+.container.flex-nav{
+    display: flex;
     width: 1158px;
     height: 72px;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-  border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
-    background: var(--WHITE, #FFF);
 }
 .navigator, .ul-nav, .li-nav, .address-nav, .ul-address, .li-address{
   display: inline-flex;
     align-items: flex-start;
     gap: 40px;
 }
-.logo-container{
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-.ul-nav{
-  padding-top: 24px;
-  padding-bottom: 24px;
-
-}
 .ul-address{
-padding-top: 24px;
-padding-bottom: 24px;
 margin-left: 332px;
 }
 .section-button{
-  width: 1158px;
+  width: 1440px;
     height: 600px;
     flex-shrink: 0;
 }
