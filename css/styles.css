@@ -139,22 +139,24 @@ max-width: 496px;
 .button-one {
   display: block;
   border: none;
+    min-width: 169px;
+    height: 56px;
+    margin: auto;
+
   cursor: pointer;
-  min-width: 169px;
-  height: 56px;
-  margin: auto;
   color: #ffffff;
   font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.04em;
-  background-color: #4d5ae5;
-  border-radius: 4px;
+
+    background-color: #4d5ae5;
+    border-radius: 4px;
 
 }
-button:hover,
-button:focus {
+.button-one:hover,
+.button-one:focus {
   background-color: #404bbf;
 }
 
@@ -176,6 +178,8 @@ button:focus {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+
 .section-feature{
 padding: 120px 0;
 }
