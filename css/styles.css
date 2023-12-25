@@ -46,6 +46,14 @@ img{
   border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
   background: var(--WHITE, #FFF);
 }
+.flex-nav {
+  display: flex;
+  align-items: center;
+}
+.navigator {
+  display: flex;
+  align-items: center
+}
 .logo-name-web-nav {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -62,8 +70,13 @@ img{
   color: #2e2f42;
 }
 
-
+.ul-nav {
+  display: flex;
+  gap: 40px;
+}
 .link-nav {
+    display: block;
+      padding: 24px 0;
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
@@ -76,33 +89,14 @@ img{
 .link-nav:active {
   color: #404bbf;
 }
-.flex-nav{
-  display: flex;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-.navigator{
-  display: flex;
-  align-items: center
-}
-.ul-nav{
-  display: flex;
-  gap: 40px;
-  padding-top: 24px;
-    padding-bottom: 24px;
-  margin-left: 76px;
-}
-.link-nav{
-  padding: 24px 0;
-}
 
+.address-nav{
+  margin-left: auto;
+}
 .ul-address{
   display: flex;
   gap: 40px;
   font-style: normal;
-  padding-top: 24px;
-    padding-bottom: 24px;
-  margin-left: 176px;
 }
 
 .link-nav-contact{
@@ -111,7 +105,7 @@ color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
- 
+
 .link-nav-contact:hover,
 .link-nav-contact:focus,
 .link-nav-contact:active{
@@ -131,9 +125,11 @@ color: #434455;
 }
 
 .section-button-title{
-color: #ffffff;
-  max-width: 496px;
-    margin: auto;
+max-width: 496px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 48px;
+  color: #ffffff;
   text-align: center;
   font-weight: 700;
   font-size: 56px;
